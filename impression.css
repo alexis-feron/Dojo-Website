@@ -1,0 +1,42 @@
+/* Tableaux */
+.table-style{
+	border-collapse: collapse; 
+	align-content: flex-start; 
+	margin: 0px ; 
+}
+thead tr {
+	background-color: rgba(255,0,0,0.3); 
+	color: black;
+}
+th, td {
+	padding: 15px 20px; 
+	text-align: center;
+}
+tbody tr, td, th {
+	border: 1px solid #000000;
+}
+tbody tr{
+	background-color: #FF0000; 
+}
+a{
+	color: #000000;
+}
+
+/* Enlever la nav, le header et le footer*/
+nav{
+	display: none;
+}
+footer{
+	display: none;
+}
+header{
+	display: none;
+}
+
+/* Fond */
+body{
+	color:#000000; 
+	margin: 0; 
+	padding: 0; 
+	background: #FFFFFF;
+}

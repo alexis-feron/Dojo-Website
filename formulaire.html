@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+
+<!-- Ajouter le CSS et donne un titre -->
+<head>
+	<meta charset="utf-8" />
+	<title> Inscription au Dojo de Clermont-Ferrand </title>
+	<link rel="stylesheet" href="miseEnPage.css"/>
+	<link rel="icon" href="logo.ico" />
+</head>
+
+<!-- Contenu de la page -->
+<body>
+
+	<!-- Barre de navigation (avec les liens vers les autres pages et les boutons pour les réseaux sociaux) sticky -->
+	<nav>
+    	<ul id="menu">
+    		<li><a id="nav" href="acceuil.html">Acceuil</a></li>
+        	<li><a id="nav" href="prix.html">Tarifs</a></li>
+        	<li><a id="nav" href="planning.html">Planning</a></li>
+        	<li><a id="nav" href="formulaire.html">Inscription</a></li>
+			<li><a href="#">Médias ▿</a>
+				<ul>
+					<li><a href="photo.html">Photos</a></li>
+					<li><a href="video.html">Vidéo</a></li>
+				</ul>
+			</li>
+			<li><a id="nav" href="http://urlr.me/9tBpg"><img id="reseaux"src="twitter.png"></a></li>
+	        <li><a id="nav" href="http://urlr.me/9tBpg"><img id="reseaux"src="facebook.png"></a></li>
+   		</ul>
+	</nav>
+
+	<!-- Image (logo) et Nom du site -->
+	<header>
+		<h1>
+			<img src="logo.png" alt="Malheureusement l'image n'as pas été trouvée"/>
+			<z>  </z>
+			<a id="acceuil">Dojo de Clermont-Ferrand </a>
+		</h1>
+	</header>
+
+	<!-- Formulaire de pré-inscription -->
+	<section>
+	<div class="contactez-nous">
+	<h2>Pré Inscription</h2>
+	<form action="http://berlin.iut.local/~alferon/formulaire.php" method="post">
+		<div>
+			<label for="nom"><pre>Votre nom :	 </pre></label>
+			<input type="text" id="nom" name="nom" placeholder="Nom Prénom" required>
+		</div>
+		<div>
+			<label for="email"><pre>Votre e-mail :	 </pre></label>
+			<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+
+		</div>
+		<div>
+			<label for="tel"><pre>Votre numéro :	 </pre></label>
+			<input type="tel" id="tel" name="tel" placeholder="06 66 66 66 66">
+			</div>
+		<div>
+			<label for="act"><pre>Activité :		 </pre></label>
+			<select name="act" id="act" class="minimal" required>
+			<option value="" disabled selected hidden>Choisissez l'activité</option>
+			<option value="Judo">Judo</option>
+			<option value="Jujitsu">Jujitsu</option>
+			</select>
+		</div>
+		<div>
+			<label for="horaire"><pre>Horaire choisi :	 </pre></label>
+			<select name="horaire" id="horaire" class="minimal" required>
+			<option value="" disabled selected hidden>Choisissez l'horaire</option>
+			<option value="Lundi 18h">Lundi 18h</option>
+			<option value="Mercredi 13h">Mercredi 13h</option>
+			<option value="Mardi 19h">Mardi 19h</option>
+			<option value="Jeudi 18h">Jeudi 18h</option>
+			<option value="Samedi 9h">Samedi 9h</option>
+			<option value="Vendredi 19h">Vendredi 19h</option>
+			</select>
+		</div>
+		<p class="switch"><pre>1ère Demande :	 </pre>
+			<input id="switch" class="switch"  type="checkbox">
+			<label for="switch"></label>
+		</p>
+<!-- Deux boutons pour savoir s'il s'agit de la premiere demande de l'utilisateur avec le type radio (au dessus version plus visuelle mais qui n'utilise pas le type radio)
+		<p>1ère Demande :
+			<input type="radio" id="oui" name="inscrit" value="oui" checked required>
+			<label for="oui">Oui</label>
+			<input type="radio" id="non" name="inscrit" value="non">
+			<label for="non">Non</label>
+		</p>
+-->
+		<div>
+			<label for="message">Votre message : </label><br>
+			<textarea id="message" cols="47" rows="6" name="message" placeholder="Bonjour, ..." required></textarea>
+		</div>
+		<div>
+			<button type="submit">Envoyer</button>
+		</div>
+	</form>
+	</div>
+	</section>
+
+	<!-- Bas de page qui contient mes informations -->
+	<footer>
+		<div> Alexis Feron, Groupe 5 </div>
+	</footer>
+
+</body>
+</html>
