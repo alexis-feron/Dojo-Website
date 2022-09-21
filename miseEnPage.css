@@ -32,7 +32,7 @@ a{
 	text-decoration: none;
 }
 body{
-	background: url("fond.jpg"); 
+	background: url("img/fond.jpg"); 
 	color:#FFFFFF; 
 	cursor: default ; 
 	margin: 0; 
